@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <!--圆的半径-->
+        <attr name="progress_circular_radius" format="dimension" />
+        <!--进度圆的背景色-->
+        <attr name="progress_circular_color_bg" format="color" />
+        <!--初始圆的背景色-->
+        <attr name="circular_color_bg" format="color" />
+        <!--加载进度的开始位置-->
+        <attr name="progress_location" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>
